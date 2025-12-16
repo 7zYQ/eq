@@ -15,7 +15,7 @@ public class sum { // 类名规范首字母大写（非强制，但建议遵守�
     public static void main(String[] args) {
         sum sum = new sum();
         // 测试用例：比如nums=[2,7,11,15], target=9，预期返回[0,1]
-        int[] result = sum.two(new int[]{0, 0, 0, 5}, 9);
+        int[] result = sum.two(new int[]{0, 1, 0, 5}, 9);
         System.out.println("结果下标：" + result[0] + "," + result[1]);
     }
 }
